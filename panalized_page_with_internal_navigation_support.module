@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Panalized Page with Internal Navigation Support feature.
+ */
+
+include_once 'panalized_page_with_internal_navigation_support.features.inc';
