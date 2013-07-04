@@ -4,4 +4,4 @@
  * Code for the Panalized Page with Internal Navigation Support feature.
  */
 
-include_once 'panalized_page_with_internal_navigation_support.features.inc';
+include_once 'ottawa_panelized_page_nav.features.inc';

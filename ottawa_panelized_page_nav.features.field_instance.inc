@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panalized_page_with_internal_navigation_support.features.field_instance.inc
+ * ottawa_panelized_page_nav.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function panalized_page_with_internal_navigation_support_field_default_field_instances() {
+function ottawa_panelized_page_nav_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-toc_pan_page-body'

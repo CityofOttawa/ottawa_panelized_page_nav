@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panalized_page_with_internal_navigation_support.features.inc
+ * ottawa_panelized_page_nav.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function panalized_page_with_internal_navigation_support_ctools_plugin_api() {
+function ottawa_panelized_page_nav_ctools_plugin_api() {
   list($module, $api) = func_get_args();
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
@@ -17,7 +17,7 @@ function panalized_page_with_internal_navigation_support_ctools_plugin_api() {
 /**
  * Implements hook_node_info().
  */
-function panalized_page_with_internal_navigation_support_node_info() {
+function ottawa_panelized_page_nav_node_info() {
   $items = array(
     'toc_pan_page' => array(
       'name' => t('Panelized Page with Internal Navigation'),

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panalized_page_with_internal_navigation_support.strongarm.inc
+ * ottawa_panelized_page_nav.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function panalized_page_with_internal_navigation_support_strongarm() {
+function ottawa_panelized_page_nav_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
