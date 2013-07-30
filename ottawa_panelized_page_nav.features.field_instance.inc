@@ -20,10 +20,7 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'text_default',
         'weight' => 0,
       ),
@@ -85,7 +82,7 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 12,
+        'weight' => 21,
       ),
       'featured' => array(
         'label' => 'above',
@@ -139,7 +136,7 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 30,
+        'weight' => 19,
       ),
       'featured' => array(
         'label' => 'above',
@@ -254,14 +251,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'module' => 'number',
         'settings' => array(
           'decimal_separator' => '.',
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
           'prefix_suffix' => TRUE,
           'scale' => 0,
           'thousand_separator' => ' ',
         ),
         'type' => 'number_integer',
-        'weight' => 15,
+        'weight' => 12,
       ),
       'featured' => array(
         'label' => 'above',
@@ -313,12 +308,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'file',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'file_default',
-        'weight' => 13,
+        'weight' => 10,
       ),
       'featured' => array(
         'label' => 'above',
@@ -438,7 +430,7 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 29,
+        'weight' => 27,
       ),
       'featured' => array(
         'label' => 'above',
@@ -567,12 +559,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'text_default',
-        'weight' => 11,
+        'weight' => 9,
       ),
       'featured' => array(
         'label' => 'above',
@@ -624,12 +613,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'text_default',
-        'weight' => 7,
+        'weight' => 5,
       ),
       'featured' => array(
         'label' => 'above',
@@ -685,12 +671,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'list',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'list_default',
-        'weight' => 9,
+        'weight' => 7,
       ),
       'featured' => array(
         'label' => 'above',
@@ -741,12 +724,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 4,
       ),
       'featured' => array(
         'label' => 'above',
@@ -802,12 +782,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'list',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'list_default',
-        'weight' => 10,
+        'weight' => 8,
       ),
       'featured' => array(
         'label' => 'above',
@@ -858,12 +835,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'text_default',
-        'weight' => 16,
+        'weight' => 13,
       ),
       'featured' => array(
         'label' => 'above',
@@ -915,12 +889,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'text_default',
-        'weight' => 8,
+        'weight' => 6,
       ),
       'featured' => array(
         'label' => 'above',
@@ -973,8 +944,6 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'label' => 'above',
         'module' => 'field_collection',
         'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
           'view_mode' => 'full',
         ),
         'type' => 'field_collection_fields',
@@ -1028,12 +997,10 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 17,
+        'weight' => 14,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1088,12 +1055,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'text_default',
-        'weight' => 20,
+        'weight' => 16,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1145,12 +1109,9 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'list',
-        'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
-        ),
+        'settings' => array(),
         'type' => 'list_default',
-        'weight' => 18,
+        'weight' => 15,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1200,8 +1161,6 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
@@ -1260,8 +1219,6 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'label' => 'above',
         'module' => 'date',
         'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
           'format_type' => 'long',
           'fromto' => 'both',
           'multiple_from' => '',
@@ -1270,7 +1227,7 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
-        'weight' => 28,
+        'weight' => 18,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1399,8 +1356,6 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'label' => 'above',
         'module' => 'date',
         'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
           'format_type' => 'long',
           'fromto' => 'both',
           'multiple_from' => '',
@@ -1409,7 +1364,7 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
-        'weight' => 27,
+        'weight' => 17,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1470,8 +1425,6 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'label' => 'above',
         'module' => 'date',
         'settings' => array(
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
           'format_type' => 'long',
           'fromto' => 'both',
           'multiple_from' => '',
@@ -1528,6 +1481,58 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
       ),
       'type' => 'date_popup',
       'weight' => 9,
+    ),
+  );
+
+  // Exported field_instance: 'node-toc_pan_page-field_show_table_of_contents'
+  $field_instances['node-toc_pan_page-field_show_table_of_contents'] = array(
+    'bundle' => 'toc_pan_page',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 20,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'fences_wrapper' => 'div',
+    'field_name' => 'field_show_table_of_contents',
+    'label' => 'Show table of contents',
+    'required' => 0,
+    'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'display_label' => 1,
+      ),
+      'type' => 'options_onoff',
+      'weight' => 26,
     ),
   );
 
@@ -1605,14 +1610,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
         'module' => 'number',
         'settings' => array(
           'decimal_separator' => '.',
-          'diff_custom' => 0,
-          'diff_custom_settings' => array(),
           'prefix_suffix' => TRUE,
           'scale' => 0,
           'thousand_separator' => ' ',
         ),
         'type' => 'number_integer',
-        'weight' => 14,
+        'weight' => 11,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1734,6 +1737,7 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
   t('Page tags');
   t('Publish on');
   t('Review by');
+  t('Show table of contents');
   t('The date by which the content needs to be reviewed.');
   t('The date on which this content is to be published.');
   t('Topic');
