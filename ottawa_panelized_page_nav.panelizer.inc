@@ -192,7 +192,17 @@ function ottawa_panelized_page_nav_panelizer_defaults() {
     $pane->type = 'page_tabs';
     $pane->subtype = 'page_tabs';
     $pane->shown = TRUE;
-    $pane->access = array();
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'theme',
+          'settings' => array(
+            'theme' => 'immigration_zen',
+          ),
+          'not' => TRUE,
+        ),
+      ),
+    );
     $pane->configuration = array(
       'type' => 'both',
       'id' => 'tabs',

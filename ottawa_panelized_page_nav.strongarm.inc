@@ -171,5 +171,104 @@ function ottawa_panelized_page_nav_strongarm() {
   $strongarm->value = 0;
   $export['node_submitted_toc_pan_page'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'panelizer_defaults_node_toc_pan_page';
+  $strongarm->value = array(
+    'status' => 1,
+    'view modes' => array(
+      'page_manager' => array(
+        'status' => 1,
+        'default' => 1,
+        'choice' => 1,
+      ),
+      'default' => array(
+        'status' => 0,
+        'default' => 0,
+        'choice' => 0,
+      ),
+      'teaser' => array(
+        'status' => 0,
+        'default' => 0,
+        'choice' => 0,
+      ),
+      'ical' => array(
+        'status' => 0,
+        'default' => 0,
+        'choice' => 0,
+      ),
+      'featured' => array(
+        'status' => 0,
+        'default' => 0,
+        'choice' => 0,
+      ),
+    ),
+  );
+  $export['panelizer_defaults_node_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_anchor_toc_pan_page';
+  $strongarm->value = 'sect(toc)';
+  $export['simple_toc_anchor_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_attach_toc_pan_page';
+  $strongarm->value = '0';
+  $export['simple_toc_attach_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_collapsible_toc_pan_page';
+  $strongarm->value = 'no';
+  $export['simple_toc_collapsible_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_field_toc_pan_page';
+  $strongarm->value = 'body';
+  $export['simple_toc_field_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_title_text_toc_pan_page';
+  $strongarm->value = 'Table of Contents';
+  $export['simple_toc_title_text_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_title_type_toc_pan_page';
+  $strongarm->value = '';
+  $export['simple_toc_title_type_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_top_insert_toc_pan_page';
+  $strongarm->value = '0';
+  $export['simple_toc_top_insert_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_top_text_toc_pan_page';
+  $strongarm->value = 'Back to Top';
+  $export['simple_toc_top_text_toc_pan_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simple_toc_type_toc_pan_page';
+  $strongarm->value = 'ol';
+  $export['simple_toc_type_toc_pan_page'] = $strongarm;
+
   return $export;
 }
