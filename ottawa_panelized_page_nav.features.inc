@@ -34,3 +34,14 @@ function ottawa_panelized_page_nav_node_info() {
   );
   return $items;
 }
+
+/**
+ * Implements hook_node_view().
+ */
+function ottawa_panelized_page_nav_node_view($node, $view_mode, $langcode) {
+  if ($node->type == "toc_pan_page" and $view_mode == 'default') {
+    dpm($node);
+  }
+}
+
+
