@@ -5,3 +5,15 @@
  */
 
 include_once 'ottawa_panelized_page_nav.features.inc';
+
+
+/**
+ * Implements hook_node_view().
+ */
+function ottawa_panelized_page_nav_node_view($node, $view_mode, $langcode) {
+  dpm($node);
+  dpm($view_mode);
+  
+  
+}
+
