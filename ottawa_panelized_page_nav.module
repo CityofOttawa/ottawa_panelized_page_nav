@@ -13,8 +13,8 @@ function ottawa_panelized_page_nav_ctools_render_alter(&$info, &$page, &$context
   // Since the node is rendered using panels, hook_node_view doesn't work.
   // Instead we listen for the rendering through the CTools API
   // @see http://karenziv.com/2013/02/drupal-adding-jscss-to-a-specific-content-type-page-with-panels/
-  if (!empty($context['handler']->name) and !empty($context['argument_entity_id:node_1']->data->type)) {
-    if ($context['handler']->name == 'node_view_panelizer' and $context['argument_entity_id:node_1']->data->type = 'toc_pan_page') {
+  if (!empty($context['handler']->name) and !empty($context['contexts']['argument_entity_id:node_1']->data->type)) {
+    if ($context['handler']->name == 'node_view_panelizer' and $context['contexts']['argument_entity_id:node_1']->data->type = 'toc_pan_page') {
       drupal_add_library('ottawa_toc_float', 'stickynav');
     }
   }
