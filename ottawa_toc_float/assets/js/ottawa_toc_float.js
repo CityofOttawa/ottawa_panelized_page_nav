@@ -8,7 +8,13 @@
     	nav_container.waypoint({
     		handler: function(event, direction) {
     			nav.toggleClass('sticky', direction=='down');
-			
+			    
+			    if (nav.hasClass('sticky')) {
+			      nav.css({'width': nav_container.width() - 5});
+			    }
+			    else {
+			      nav.css({'width': 'auto'});
+			    }
     			if (direction == 'down') {
     			  nav_container.css({ 'height':nav.outerHeight() });
   			  }

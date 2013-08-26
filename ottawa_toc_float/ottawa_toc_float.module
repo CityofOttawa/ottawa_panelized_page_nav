@@ -28,6 +28,9 @@ function ottawa_toc_float_library() {
         'scope' => 'footer',
       ),
     ),
+    'css' => array(
+      $module_path . '/assets/css/ottawa_toc_float.css' => array(),
+    ),
   );
   return $libraries;
 }
