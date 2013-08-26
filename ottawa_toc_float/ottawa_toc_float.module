@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Defines a library for creating sticky navigation bars
+ *
+ * @author Mathew Winstone <mwinstone@coldfrontlabs.ca>
+ */
+
+/**
+ * Implements hook_library().
+ */
+function ottawa_toc_float_library() {
+  $module_path = drupal_get_path('module', 'ottawa_toc_float');
+
+  // Library One.
+  $libraries['stickynav'] = array(
+    'title' => 'Sticky Navigation',
+    'version' => '1.0',
+    'js' => array(
+      $module_path . '/assets/js/waypoints.min.js' => array(
+        'scope' => 'footer',
+      ),
+      $module_path . '/assets/js/jquery.scrollTo-1.4.2-min.js' => array(
+        'scope' => 'footer',
+      ),
+      $module_path . '/assets/js/ottawa_toc_float.js' => array(
+        'scope' => 'footer',
+      ),
+    ),
+  );
+  return $libraries;
+}

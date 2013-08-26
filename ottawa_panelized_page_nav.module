@@ -19,4 +19,3 @@ function ottawa_panelized_page_nav_ctools_render_alter(&$info, &$page, &$context
     }
   }
 }
-

@@ -1,0 +1,6 @@
+name = Ottawa Table of Contents Float
+description = Creates a javascript configuration which can be used to make stikcy navigation sections.
+core = 7.x
+
+dependencies[] = jquery_update
+dependencies[] = libraries (>=2.x)

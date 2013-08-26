@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0b1 | 201101
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+ 
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+ 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*base*/
+
+body {
+	font-size: 14px;
+	font-family: Verdana, Arial, sans-serif;
+	color: #666;
+	padding:0;
+	/*background: url(img/farmer.png) top center no-repeat #e8e9e4; /*http://subtlepatterns.com/?p=1109*/ 
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0 0 1.5em 0;
+}
+
+a {
+	color: #2f4990;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: bold;
+	margin: 0 ;
+	padding: 0;
+	color: #008375;
+	letter-spacing: -0.05em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin: 0 0 .5em 0;
+	color: #2f4990;
+	letter-spacing: -0.07em;
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 1em
+}
+
+
+.wrapper { 
+	margin: 0 auto; 
+	padding: 0;
+	
+	background: #ffffff;	
+	-webkit-border-radius: 0 0 1px 1px;
+	-moz-border-radius: 0 0 1px 1px;
+	border-radius: 0 0 1px 1px;
+}
+
+header { 
+	padding: 2em 2em 0;
+}
+
+section {
+	padding: 0 2em 1em;
+	width: 80%;
+	margin-right: 5%;
+	float: left;
+}
+
+footer {
+	padding: 1em;
+	font-size: 0.9em;
+}
+
+footer p{
+	margin: 1em;
+}
+
+hr {
+	width: 100%;
+	display: block;
+	height: 1px;
+	border: none;
+	outline: none;
+	clear: both;
+	background: #ccc;
+	margin: 1em 0;
+	
+}
+
+nav{
+	background-color: #008375;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	        border-radius: 5px 0px 0px 5px;
+}
+
+.nav-container{	
+	position: absolute;
+	top: 98px; 
+	right: 0;
+}
+
+nav ul li{
+	
+}
+
+nav ul li a{
+	padding: 1em 2em 1em 3em;
+	display: block;
+	color: #fff;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+	filter: dropshadow(color=#000000, offx=1, offy=1);
+	
+	text-decoration: none;
+}
+
+nav ul li:first-child a{
+	-webkit-border-radius: 5px 0px 0px 0px;
+	        border-radius: 5px 0px 0px 0px;
+}
+
+nav ul li:last-child a{
+	-webkit-border-radius: 0px 0px 0px 5px;
+	        border-radius: 0px 0px 0px 5px;
+}
+
+
+
+.selected{
+	background-color: #005b51;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+.sticky {
+  position: fixed;
+  top: 40px;
+	right: 0;
+}
+
+
+
+/*media queries*/  
+
+	/* #Tablet (Portrait) width of 768px */  
+	@media only screen and (min-width: 768px) {
+
+		body{
+			width: 100%;
+			
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+
+	}
+	
