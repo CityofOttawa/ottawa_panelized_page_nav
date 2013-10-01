@@ -21,6 +21,8 @@
     			else nav_container.css({ 'height':'auto' });
     		},
     		offset: 40
+    		//offset: 40
+
     	});
 	
     	var sections = $(".field-name-body h1 a, .field-name-body h2 a, .field-name-body h3 a");
@@ -40,7 +42,9 @@
     			active_link.addClass("selected");
 
     		},
-    		offset: '35%'
+    		offset: 20
+    		//offset in px for when before the anchor to highlight menu
+
     	})
 	
 	
@@ -50,7 +54,7 @@
     			$(this).attr("href"),
     			{
     				duration: 200,
-    				offset: { 'left':0, 'top':-0.15*$(window).height() }
+    				offset: { 'left':0, 'top':0 }
     			}
     		);
     	});
