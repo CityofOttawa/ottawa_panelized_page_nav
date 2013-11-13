@@ -17,6 +17,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -78,6 +84,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -131,6 +143,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'list',
@@ -184,6 +202,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'settings' => array(),
@@ -246,6 +270,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'number',
@@ -305,6 +335,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'file',
@@ -426,6 +462,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -556,6 +598,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -610,6 +658,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -668,6 +722,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'list',
@@ -721,6 +781,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -779,6 +845,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'list',
@@ -832,6 +904,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -886,6 +964,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -940,6 +1024,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'field_collection',
@@ -993,6 +1083,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'entityreference',
@@ -1052,6 +1148,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -1106,6 +1208,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'list',
@@ -1157,6 +1265,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'entityreference',
@@ -1215,6 +1329,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => 'The date on which this content is to be published.',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'date',
@@ -1289,6 +1409,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -1352,6 +1478,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => 'The date by which the content needs to be reviewed.',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'date',
@@ -1421,6 +1553,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'date',
@@ -1484,58 +1622,6 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-toc_pan_page-field_show_table_of_contents'
-  $field_instances['node-toc_pan_page-field_show_table_of_contents'] = array(
-    'bundle' => 'toc_pan_page',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 20,
-      ),
-      'featured' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'ical' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'fences_wrapper' => 'div',
-    'field_name' => 'field_show_table_of_contents',
-    'label' => 'Show table of contents',
-    'required' => 0,
-    'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'options',
-      'settings' => array(
-        'display_label' => 1,
-      ),
-      'type' => 'options_onoff',
-      'weight' => 26,
-    ),
-  );
-
   // Exported field_instance: 'node-toc_pan_page-field_topic'
   $field_instances['node-toc_pan_page-field_topic'] = array(
     'bundle' => 'toc_pan_page',
@@ -1543,6 +1629,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1605,6 +1697,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'number',
@@ -1669,6 +1767,12 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compendium' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'hidden',
         'settings' => array(),
@@ -1737,7 +1841,6 @@ function ottawa_panelized_page_nav_field_default_field_instances() {
   t('Page tags');
   t('Publish on');
   t('Review by');
-  t('Show table of contents');
   t('The date by which the content needs to be reviewed.');
   t('The date on which this content is to be published.');
   t('Topic');

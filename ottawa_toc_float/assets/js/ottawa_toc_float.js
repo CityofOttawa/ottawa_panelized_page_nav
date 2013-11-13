@@ -23,7 +23,7 @@
     		offset: 40
     	});
 	
-    	var sections = $(".field-name-body h1, .field-name-body h2, .field-name-body h3");
+    	var sections = $(".field-name-body h2");
     	var navigation_links = $("ol a");
 	
     	sections.waypoint({

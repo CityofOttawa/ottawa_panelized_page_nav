@@ -52,6 +52,9 @@ function ottawa_panelized_page_nav_strongarm() {
       'diff_complete' => array(
         'custom_settings' => FALSE,
       ),
+      'compendium' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -80,6 +83,10 @@ function ottawa_panelized_page_nav_strongarm() {
       'display' => array(
         'language' => array(
           'default' => array(
+            'weight' => '24',
+            'visible' => FALSE,
+          ),
+          'compendium' => array(
             'weight' => '24',
             'visible' => FALSE,
           ),
@@ -193,6 +200,11 @@ function ottawa_panelized_page_nav_strongarm() {
         'default' => 0,
         'choice' => 0,
       ),
+      'compendium' => array(
+        'status' => 0,
+        'default' => 0,
+        'choice' => 0,
+      ),
       'ical' => array(
         'status' => 0,
         'default' => 0,
@@ -210,65 +222,30 @@ function ottawa_panelized_page_nav_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_anchor_toc_pan_page';
-  $strongarm->value = 'sect(toc)';
-  $export['simple_toc_anchor_toc_pan_page'] = $strongarm;
+  $strongarm->name = 'pathauto_node_toc_pan_page_en_pattern';
+  $strongarm->value = '[node:gateway]/[node:topic]/[node:subtopic]/[node:title]';
+  $export['pathauto_node_toc_pan_page_en_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_attach_toc_pan_page';
-  $strongarm->value = '0';
-  $export['simple_toc_attach_toc_pan_page'] = $strongarm;
+  $strongarm->name = 'pathauto_node_toc_pan_page_fr_pattern';
+  $strongarm->value = '[node:gateway]/[node:topic]/[node:subtopic]/[node:title]';
+  $export['pathauto_node_toc_pan_page_fr_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_collapsible_toc_pan_page';
-  $strongarm->value = 'no';
-  $export['simple_toc_collapsible_toc_pan_page'] = $strongarm;
+  $strongarm->name = 'pathauto_node_toc_pan_page_pattern';
+  $strongarm->value = '[node:gateway]/[node:topic]/[node:subtopic]/[node:title]';
+  $export['pathauto_node_toc_pan_page_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_field_toc_pan_page';
-  $strongarm->value = 'body';
-  $export['simple_toc_field_toc_pan_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_title_text_toc_pan_page';
-  $strongarm->value = 'Table of Contents';
-  $export['simple_toc_title_text_toc_pan_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_title_type_toc_pan_page';
+  $strongarm->name = 'pathauto_node_toc_pan_page_und_pattern';
   $strongarm->value = '';
-  $export['simple_toc_title_type_toc_pan_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_top_insert_toc_pan_page';
-  $strongarm->value = '0';
-  $export['simple_toc_top_insert_toc_pan_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_top_text_toc_pan_page';
-  $strongarm->value = 'Back to Top';
-  $export['simple_toc_top_text_toc_pan_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'simple_toc_type_toc_pan_page';
-  $strongarm->value = 'ol';
-  $export['simple_toc_type_toc_pan_page'] = $strongarm;
+  $export['pathauto_node_toc_pan_page_und_pattern'] = $strongarm;
 
   return $export;
 }

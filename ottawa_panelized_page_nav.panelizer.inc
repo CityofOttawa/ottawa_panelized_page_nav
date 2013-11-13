@@ -47,6 +47,30 @@ function ottawa_panelized_page_nav_panelizer_defaults() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
+    $pane->pid = 'new-60b6f33e-07ce-3674-65c9-b36cd5460c55';
+    $pane->panel = 'cityott_two_66_33_first';
+    $pane->type = 'entity_view';
+    $pane->subtype = 'node';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'view_mode' => 'compendium',
+      'context' => 'panelizer',
+      'override_title' => 1,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '60b6f33e-07ce-3674-65c9-b36cd5460c55';
+    $display->content['new-60b6f33e-07ce-3674-65c9-b36cd5460c55'] = $pane;
+    $display->panels['cityott_two_66_33_first'][0] = 'new-60b6f33e-07ce-3674-65c9-b36cd5460c55';
+    $pane = new stdClass();
     $pane->pid = 'new-2a7caf8e-06b0-f7e4-0dcf-58b421696893';
     $pane->panel = 'cityott_two_66_33_first';
     $pane->type = 'entity_field';
@@ -70,51 +94,11 @@ function ottawa_panelized_page_nav_panelizer_defaults() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = '2a7caf8e-06b0-f7e4-0dcf-58b421696893';
     $display->content['new-2a7caf8e-06b0-f7e4-0dcf-58b421696893'] = $pane;
-    $display->panels['cityott_two_66_33_first'][0] = 'new-2a7caf8e-06b0-f7e4-0dcf-58b421696893';
-    $pane = new stdClass();
-    $pane->pid = 'new-5208cab3-6753-57c4-8904-e0fd468e58b1';
-    $pane->panel = 'cityott_two_66_33_first';
-    $pane->type = 'block';
-    $pane->subtype = 'simple_toc-simple_toc';
-    $pane->shown = TRUE;
-    $pane->access = array(
-      'plugins' => array(
-        0 => array(
-          'name' => 'entity_field_value:node:toc_pan_page:field_show_table_of_contents',
-          'settings' => array(
-            'field_show_table_of_contents' => array(
-              'und' => array(
-                0 => array(
-                  'value' => 1,
-                ),
-              ),
-            ),
-            'field_show_table_of_contents_value' => '1',
-          ),
-          'context' => 'panelizer',
-          'not' => FALSE,
-        ),
-      ),
-    );
-    $pane->configuration = array(
-      'override_title' => 0,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $pane->uuid = '5208cab3-6753-57c4-8904-e0fd468e58b1';
-    $display->content['new-5208cab3-6753-57c4-8904-e0fd468e58b1'] = $pane;
-    $display->panels['cityott_two_66_33_first'][1] = 'new-5208cab3-6753-57c4-8904-e0fd468e58b1';
+    $display->panels['cityott_two_66_33_first'][1] = 'new-2a7caf8e-06b0-f7e4-0dcf-58b421696893';
     $pane = new stdClass();
     $pane->pid = 'new-26cbe59c-05d2-5ea4-5587-2a06afaf4951';
     $pane->panel = 'cityott_two_66_33_second';
@@ -247,28 +231,6 @@ function ottawa_panelized_page_nav_panelizer_defaults() {
     $pane->uuid = '70d6d1a3-6fa5-6044-7952-a80e15bb2561';
     $display->content['new-70d6d1a3-6fa5-6044-7952-a80e15bb2561'] = $pane;
     $display->panels['cityott_two_66_33_second'][4] = 'new-70d6d1a3-6fa5-6044-7952-a80e15bb2561';
-    $pane = new stdClass();
-    $pane->pid = 'new-ec79b8e0-6970-4494-8d31-1f704273ca48';
-    $pane->panel = 'cityott_two_66_33_top';
-    $pane->type = 'block';
-    $pane->subtype = 'boxes-warningmessage';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $pane->uuid = 'ec79b8e0-6970-4494-8d31-1f704273ca48';
-    $display->content['new-ec79b8e0-6970-4494-8d31-1f704273ca48'] = $pane;
-    $display->panels['cityott_two_66_33_top'][0] = 'new-ec79b8e0-6970-4494-8d31-1f704273ca48';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $panelizer->display = $display;
